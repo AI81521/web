@@ -18,8 +18,8 @@ function reset()
     {
       word[i] = prompt(i+"번째 단어를 입력해주세요.");
       meaning[i] = prompt(i+"번째 단어의 뜻을 입력해주세요.");
+      flag=1;
     }
-    flag=1;
   }
 }
 function active()
